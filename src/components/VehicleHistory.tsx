@@ -85,7 +85,6 @@ export function VehicleHistory({ vehicles }: VehicleHistoryProps) {
                   <SelectValue placeholder="Todos os serviços" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Todos os serviços</SelectItem>
                   {serviceOptions.map((service) => (
                     <SelectItem key={service} value={service}>
                       {service}
